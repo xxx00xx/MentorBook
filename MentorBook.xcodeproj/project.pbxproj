@@ -15,6 +15,10 @@
 		E228BC51250A74C300E69F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E228BC4F250A74C300E69F74 /* LaunchScreen.storyboard */; };
 		E228BC5C250A74C400E69F74 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228BC5B250A74C400E69F74 /* MentorBookTests.swift */; };
 		E228BC67250A74C400E69F74 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228BC66250A74C400E69F74 /* MentorBookUITests.swift */; };
+		E26D58B7250E96DE006EEDC9 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26D58B4250E96DE006EEDC9 /* ryo.jpg */; };
+		E26D58B8250E96DE006EEDC9 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26D58B5250E96DE006EEDC9 /* nagata.jpg */; };
+		E26D58B9250E96DE006EEDC9 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26D58B6250E96DE006EEDC9 /* taithi.jpg */; };
+		E26D58BB250E9872006EEDC9 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D58BA250E9872006EEDC9 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E228BC62250A74C400E69F74 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E228BC66250A74C400E69F74 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		E228BC68250A74C400E69F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26D58B4250E96DE006EEDC9 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		E26D58B5250E96DE006EEDC9 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		E26D58B6250E96DE006EEDC9 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		E26D58BA250E9872006EEDC9 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +110,10 @@
 				E228BC44250A74BF00E69F74 /* AppDelegate.swift */,
 				E228BC46250A74BF00E69F74 /* SceneDelegate.swift */,
 				E228BC48250A74BF00E69F74 /* ViewController.swift */,
+				E26D58BA250E9872006EEDC9 /* Mentor.swift */,
 				E228BC4A250A74BF00E69F74 /* Main.storyboard */,
 				E228BC4D250A74C300E69F74 /* Assets.xcassets */,
+				E26D58B3250E96DE006EEDC9 /* #6_images */,
 				E228BC4F250A74C300E69F74 /* LaunchScreen.storyboard */,
 				E228BC52250A74C300E69F74 /* Info.plist */,
 			);
@@ -126,6 +136,16 @@
 				E228BC68250A74C400E69F74 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		E26D58B3250E96DE006EEDC9 /* #6_images */ = {
+			isa = PBXGroup;
+			children = (
+				E26D58B4250E96DE006EEDC9 /* ryo.jpg */,
+				E26D58B5250E96DE006EEDC9 /* nagata.jpg */,
+				E26D58B6250E96DE006EEDC9 /* taithi.jpg */,
+			);
+			path = "#6_images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26D58B9250E96DE006EEDC9 /* taithi.jpg in Resources */,
+				E26D58B7250E96DE006EEDC9 /* ryo.jpg in Resources */,
+				E26D58B8250E96DE006EEDC9 /* nagata.jpg in Resources */,
 				E228BC51250A74C300E69F74 /* LaunchScreen.storyboard in Resources */,
 				E228BC4E250A74C300E69F74 /* Assets.xcassets in Resources */,
 				E228BC4C250A74BF00E69F74 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26D58BB250E9872006EEDC9 /* Mentor.swift in Sources */,
 				E228BC49250A74BF00E69F74 /* ViewController.swift in Sources */,
 				E228BC45250A74BF00E69F74 /* AppDelegate.swift in Sources */,
 				E228BC47250A74BF00E69F74 /* SceneDelegate.swift in Sources */,
